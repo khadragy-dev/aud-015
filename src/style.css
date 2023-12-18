@@ -1,0 +1,42 @@
+.ca_aud_015 .ca_menu {
+  display: none;
+  position: absolute;
+  z-index: 9999999999999;
+  background: #fff;
+  left: 0;
+  top: 55px;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #eeeff0;
+}
+
+.ca_aud_015.ca_active_menu .ca_menu {
+  display: block;
+}
+.ca_aud_015.ca_active_menu {
+  overflow: hidden;
+}
+
+.ca_aud_015.ca_active_menu .btn--link.site-header__icon .icon-hamburger {
+  display: none;
+}
+
+.ca_aud_015.ca_active_menu .btn--link.site-header__icon .icon-close {
+  display: block;
+}
+
+.ca_aud_015 .ca_toggle_button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 43px;
+  height: 50px;
+  background-color: transparent;
+}
+
+@media (min-width: 749px) {
+  .ca_aud_015 .ca_menu,
+  .ca_aud_015.ca_active_menu .ca_menu {
+    display: none;
+  }
+}

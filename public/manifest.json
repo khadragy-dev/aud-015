@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "aud_015",
+  "description": "AUD-015 | Rework Hamburger Menu",
+  "version": "0.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://audienhearing.com"],
+      "js": ["aud_015.iife.js"]
+    }
+  ]
+}
